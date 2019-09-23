@@ -41,7 +41,8 @@ public class Main {
 
 
         //TODO PRINT RESULTS
-            
+            System.out.println("Your BMI (Body Mass Index) is ");
+            System.out.print(bmi);
 
 
     }
