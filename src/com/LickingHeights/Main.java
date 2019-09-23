@@ -27,37 +27,21 @@ public class Main {
         weight = keyboard.nextDouble();
 
         //TODO CONVERT VARIABLES TO THE EQUATION
-            inches = inches  +(feet * 12);
+            inches = inches  + (feet * 12);
 
             meters = inches * IN_TO_METERS;
 
             kilograms = (weight * 0.453592);
 
         //TODO PERFORM BMI CALCULATION
+            bmi = kilograms / (meters * meters);
 
-        
+
+
 
 
         //TODO PRINT RESULTS
-
-
-
-
-
-
-
-
-
-
-
-
-        System.out.println("Your height in meters is...");
-
-        System.out.println("");
-
-
-
-
+            
 
 
     }
